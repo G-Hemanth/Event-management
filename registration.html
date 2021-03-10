@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<div style="background-color: white; border: 15px solid rgb(117, 6, 6);padding: 50px;height: 700px;">
+  <h2>Booking an Event</h2>  
+<title>Booking an Event</title>
+</head>
+<body>
+<form action="insert.php" method="post">
+<table>
+<tr>
+<td>Enter Name</td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td>Enter Email address</td>
+<td><input type="email" name="email"></td>
+</tr>
+<tr>
+<td>Enter Contact Number</td>
+<td><input type="text" name="ct"></td>
+<tr>
+<td>Event Name</td>
+<td>
+<select name="en">
+<optiom selected hiddenvalue="">Select code</option>
+<option value="Meetings">Meetings</option>
+<option value="Product Launching">Product Launching</option>
+<option value="Wedding">Wedding</option>
+<option value="Tornaments and leagues">Tornaments and leagues</option>
+<option value="Birthdays">Birthdays</option>
+<option value="cultural">cultural</option>
+<option value="Ceremonies">Ceremonies</option>
+<option value="Trade Shows">Trade Shows</option>
+<option value="Civic Events">Civic Events</option>
+<option value="Reunions">Reunions</option>
+<option value="Promotionss">Promotions</option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td>Date</td>
+<td><input type="date" name="date"></td>
+</tr>
+<tr>
+<td>No of people attending event</td>
+<td><input type="text" name="nop"></td>
+</tr>
+<tr>
+<td>Location</td>
+<td><input type="text" name="location"></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="address"></td>
+</tr>
+<tr>
+<td>estimated cost</td>
+<td><input type="ec" name="ec"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+</table>
+</form>
+</tr>
+
+</body>
+</html>
