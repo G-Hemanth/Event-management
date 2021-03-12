@@ -1,1 +1,1 @@
-# Event-management
+A basic idea of this project is to give complete information about events and types of Events. We collect feedback from users to know the drawbacks about our Website. We can book a event through this website. This project is connect to backend using xampp  software tool. 
